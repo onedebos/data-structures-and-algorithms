@@ -3,4 +3,4 @@
 Here's my implementation of the Linked List data structure in Ruby.
 
 ## Written by
-- [Adebola](github.com/onedebos)
+- [Adebola](https://github.com/onedebos/)

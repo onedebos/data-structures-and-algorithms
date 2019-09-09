@@ -30,6 +30,7 @@ class Stack
      top_node = nil 
    end
 
+   #check if stack is empty
    def is_empty?
      if @top == nil
        true

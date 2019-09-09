@@ -114,6 +114,7 @@ class LinkedList
     previous_node.next_node = temp_node
   end
 
+  # NOT WORKING!
   def reverse_list
     node = @head
     @head = @tail
@@ -163,10 +164,3 @@ list.set(2, 20)
 # list.remove(2)
 
 p list
-
-# methods to implement in linked list
-# insert to the end
-# add_at
-# delete
-#
-#

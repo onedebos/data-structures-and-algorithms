@@ -1,8 +1,9 @@
+# frozen_string_literal: true
 
 # Display a range of numbers
 def count_down(val)
   if val < 0
-    puts "All done!"
+    puts 'All done!'
   else
     puts val
     val -= 1
@@ -20,13 +21,12 @@ def sum_range(num)
 end
 
 def factorial(num)
-  if num==0
+  if num == 0
     1
   else
-    num * factorial(num-1)
-  end 
+    num * factorial(num - 1)
+  end
 end
-
 
 # puts count_down(3)
 # puts sum_range(203)
